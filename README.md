@@ -1,5 +1,5 @@
 # Criando_um_Sistema_Bancario_com_Python
-Projeto de sistema bancário em Python para estudos (Desafio DIO Santander Open Academy (Aula Criando um Sistema Bancário com Python)
+Projeto de sistema bancário em Python para estudos (Desafio DIO Santander Open Academy (Aula Criando um Sistema Bancário com Python))
 
 
 Este projeto é um sistema bancário simples desenvolvido em Python, concebido como um desafio de programação para consolidar conceitos fundamentais.
