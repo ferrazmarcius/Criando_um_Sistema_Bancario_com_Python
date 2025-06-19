@@ -1,13 +1,41 @@
-# Criando_um_Sistema_Bancario_com_Python
-Projeto de sistema bancário em Python para estudos (Desafio DIO Santander Open Academy (Aula Criando um Sistema Bancário com Python))
+# Sistema Bancário Simples em Python
 
+Este projeto é um sistema bancário simples desenvolvido em Python, concebido como um desafio de programação para consolidar conceitos fundamentais e aplicar boas práticas de desenvolvimento de software.
 
-Este projeto é um sistema bancário simples desenvolvido em Python, concebido como um desafio de programação para consolidar conceitos fundamentais.
+## 🚀 Funcionalidades Principais
 
-Principais funcionalidades e melhorias implementadas:
+O sistema oferece as seguintes operações:
 
-Operações Essenciais: Suporta operações básicas de depósito, saque e consulta de extrato.
-Controle de Saldo e Limite: Gerencia o saldo da conta, com limite diário por saque e um número máximo de saques permitidos por período.
-Simulação de Cédulas (Saque Aprimorado): Implementei uma validação crucial que permite realizar saques apenas com valores positivos e que sejam múltiplos de R$ 5,00. Isso simula de forma mais realista a disponibilidade de cédulas de dinheiro, garantindo que o usuário só possa sacar valores que podem ser entregues em notas de 5, 10, 20, 50, etc.
-Modularização com Funções: Refatorei o código para separar cada operação (depositar, sacar, extrato) em funções dedicadas (depositar(), sacar(), exibir_extrato()). Essa otimização melhora significativamente a organização do código, a legibilidade, a reutilização e a facilidade de manutenção, tornando o projeto mais robusto e escalável para futuras expansões.
-Este projeto demonstra a aplicação prática de estruturas de controle, manipulação de dados e, especialmente, os princípios de modularidade através de funções, essenciais no desenvolvimento de sistemas.
+* **Depósito:** Permite adicionar fundos à conta.
+* **Saque:** Realiza saques com validações de saldo, limite por operação e número máximo de saques diários.
+* **Extrato:** Exibe o histórico de todas as transações (depósitos e saques) e o saldo atual.
+* **Criação de Usuário:** Permite o cadastro de novos usuários com informações como CPF, nome, data de nascimento e endereço.
+* **Criação de Conta:** Associa novas contas bancárias a usuários existentes através do CPF.
+* **Listagem de Contas:** Exibe todas as contas cadastradas no sistema.
+
+## ✨ Melhorias e Otimizações Implementadas
+
+Este projeto passou por diversas fases de otimização para aprimorar sua estrutura e lógica:
+
+* **Simulação de Cédulas (Saque Aprimorado):** Uma validação crucial foi implementada para permitir saques apenas com valores positivos e que sejam **múltiplos de R$ 5,00**. Isso simula de forma mais realista a disponibilidade de cédulas de dinheiro, garantindo que o usuário só possa sacar valores que podem ser entregues em notas (5, 10, 20, 50, etc.).
+* **Modularização com Funções:** O código foi refatorado para separar cada operação bancária e de gerenciamento em **funções dedicadas** (ex: `depositar()`, `sacar()`, `criar_usuario()`, `criar_conta()`). Essa abordagem melhora significativamente:
+    * **Organização:** O código fica mais limpo e fácil de navegar.
+    * **Legibilidade:** Cada função tem uma responsabilidade clara.
+    * **Reutilização:** Partes do código podem ser facilmente reutilizadas.
+    * **Manutenção:** Correções e novas funcionalidades são mais simples de implementar sem afetar outras áreas.
+* **Gerenciamento de Entidades:** A separação de usuários e contas em estruturas de dados distintas (listas de dicionários) permite um controle mais granular e flexível do sistema.
+* **Tratamento de Erros:** Mensagens claras foram adicionadas para guiar o usuário em caso de operações inválidas ou falhas.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Python 3.x**
+
+## 🧑‍💻 Aluno
+
+[Marcius Silva Ferraz Filho]
+[Meu Linkedin: https://www.linkedin.com/in/marcius-ferraz/]
+[Meu usuario na DIO: https://www.dio.me/users/mferraz_xmi]
+
+---
+
+**Nota:** Este projeto foi desenvolvido como parte de um desafio de Python3 no bootcamp da DIO em parceria com a Santander Open Academy. E serve como demonstração de habilidades em Python.
