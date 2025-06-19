@@ -2,7 +2,7 @@
 
 Este projeto é um sistema bancário simples desenvolvido em Python, concebido como um desafio de programação para consolidar conceitos fundamentais e aplicar boas práticas de desenvolvimento de software.
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 O sistema oferece as seguintes operações:
 
@@ -13,7 +13,7 @@ O sistema oferece as seguintes operações:
 * **Criação de Conta:** Associa novas contas bancárias a usuários existentes através do CPF.
 * **Listagem de Contas:** Exibe todas as contas cadastradas no sistema.
 
-## ✨ Melhorias e Otimizações Implementadas
+## Melhorias e Otimizações Implementadas
 
 Este projeto passou por diversas fases de otimização para aprimorar sua estrutura e lógica:
 
@@ -26,15 +26,15 @@ Este projeto passou por diversas fases de otimização para aprimorar sua estrut
 * **Gerenciamento de Entidades:** A separação de usuários e contas em estruturas de dados distintas (listas de dicionários) permite um controle mais granular e flexível do sistema.
 * **Tratamento de Erros:** Mensagens claras foram adicionadas para guiar o usuário em caso de operações inválidas ou falhas.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Python 3.x**
 
-## 🧑‍💻 Aluno
+## Desenvolvedor
 
-[Marcius Silva Ferraz Filho]
-[Meu Linkedin: https://www.linkedin.com/in/marcius-ferraz/]
-[Meu usuario na DIO: https://www.dio.me/users/mferraz_xmi]
+* **Marcius Silva Ferraz Filho**
+* **Meu LinkedIn:** [linkedin.com/in/marcius-ferraz](https://www.linkedin.com/in/marcius-ferraz)
+* **Meu perfil na DIO:** [dio.me/users/mferraz_xml](https://www.dio.me/users/mferraz_xml)
 
 ---
 
